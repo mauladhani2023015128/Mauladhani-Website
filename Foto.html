@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Gambar JPG</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffed4a;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    img {
+      border: 3px solid #555;
+      border-radius: 5px;
+      margin-top: 20px;
+      width: 600px;
+    }
+	
+	  /* CSS untuk tombol kembali */
+        .back-button-container {
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+        }
+
+        .menu-btn {
+            width: 200px;
+            background-color: #ffd700;
+            color: #2c3e50;
+            padding: 14px 0;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-bottom: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+            transition: background 0.2s, color 0.2s;
+        }
+        .menu-btn:hover {
+            background-color: #f1c40f;
+        }
+        .menu-btn:active {
+            background-color: #ffe066;
+        }
+        .back-btn {
+            background-color: #f8f9fa;
+            color: #2c3e50;
+        }
+        .back-btn:hover {
+            background-color: #cccccc;
+            color: #2c3e50;
+        }
+  </style>
+</head>
+<body>
+
+  <h1>Foto Saya</h1>
+
+  <img src="foto_saya.jpg.jpg" alt="Foto Saya">
+  
+   <!-- Tombol kembali terpisah -->
+    <div class="back-button-container">
+        <button class="menu-btn back-btn" onclick="window.location.href='Profile.html'">Kembali</button>
+    </div>
+
+</body>
+</html>
